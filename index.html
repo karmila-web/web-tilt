@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .kotak {
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      margin: 50px auto;
+      display: flex;
+    }
+
+    .kotak h3 {
+      margin: auto;
+      font-size: 2em;
+    }
+  </style>
+  <body>
+    <h1>PEMBELAJARAN GITHUB</h1>
+    <br />
+    <h3>Karmila. S</h3>
+    <p>Hai Perkenalkan nama saya karmila. S</p>
+
+    <div class="kotak">
+      <h3>Tulisan</h3>
+    </div>
+
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelector(".kotak"), {
+        max: 25,
+        speed: 400,
+      });
+    </script>
+  </body>
+</html>
